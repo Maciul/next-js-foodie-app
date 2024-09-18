@@ -1,7 +1,7 @@
-export default function AboutPage() {
+export default function CommunityPage() {
   return (
     <main>
-      <h1> About Us </h1>
+      <h1> Community Page </h1>
     </main>
   );
 }
