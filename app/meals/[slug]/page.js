@@ -1,7 +1,7 @@
 export default function BlogPostPage({ params }) {
   return (
     <main>
-      <h1>Blog Post</h1>
+      <h1>Meal Recipe</h1>
       <p>{params.slug}</p>
     </main>
   );
