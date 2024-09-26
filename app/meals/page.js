@@ -16,7 +16,9 @@ export default function MealsPage() {
       <p className={classes.cta}>
         <Link href="/meals/share"> Share your favorite recipe</Link>
       </p>
-      <main className={classes.main}></main>
+      <main className={classes.main}>
+        <MealsGrid meals={[]} />
+      </main>
     </>
   );
 }
